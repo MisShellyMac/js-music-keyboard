@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: black;   
+  background-color: black;
 }
 
 .instrument {
@@ -23,6 +23,18 @@ body {
 }
 
 .note:focus { outline: none; }
+
+.chord {
+  cursor: pointer;
+  font-size: 2rem;
+  width: 12rem;
+  height: 8rem;
+  margin: 0;
+  padding: 0;
+  border: 3px solid currentColor;
+}
+
+.chord:focus { outline: none; }
 
 .c { background-color: #3e181b; color: #db1d2d; }
 .c:hover { background-color: #661920; }
